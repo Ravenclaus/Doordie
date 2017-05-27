@@ -271,6 +271,10 @@
     <Compile Include="Migrations\201705240121149_DoordieAuth.Designer.cs">
       <DependentUpon>201705240121149_DoordieAuth.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705271840520_Identity.cs" />
+    <Compile Include="Migrations\201705271840520_Identity.Designer.cs">
+      <DependentUpon>201705271840520_Identity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -365,6 +369,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201705240121149_DoordieAuth.resx">
       <DependentUpon>201705240121149_DoordieAuth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705271840520_Identity.resx">
+      <DependentUpon>201705271840520_Identity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
