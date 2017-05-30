@@ -337,7 +337,7 @@ namespace Doordie.Controllers
                 return GetErrorResult(result);
             }
 
-            return Ok();
+            return Ok("hello account controller");
         }
 
         // POST api/Account/RegisterExternal
