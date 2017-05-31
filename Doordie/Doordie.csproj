@@ -287,6 +287,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\HomeController.js" />
+    <Content Include="app\Partials\Home.html" />
     <Content Include="app\Partials\Login.html" />
     <Content Include="app\LoginController.js" />
     <Content Include="app\Partials\SignUp.html" />

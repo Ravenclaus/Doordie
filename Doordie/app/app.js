@@ -8,8 +8,8 @@ app.config(["$routeProvider", function($routeProvider){
         })
         .when("/home",
         {
-            templateUrl: "app/home.html",
-            controller: "homeController"
+            templateUrl: "app/Partials/Home.html",
+            controller: "HomeController"
         })
         .when("/signup",
         {
@@ -31,5 +31,5 @@ app.run(["$http", function ($http) {
     if (token)
         $http.defaults.headers.common['Authorization'] = `bearer ${token}`;
 
-}
+    }
 ]);
