@@ -1,8 +1,8 @@
 ﻿app.controller("SignUpController", ["$scope", "$http", "$location",
     function ($scope, $http, $location) {
-        console.log($scope);
+        
         $scope.signUp = function () {
-            console.log("yay bin");
+           
             $http({
                 url: "/api/Account/Register",
                 method: "POST",
@@ -16,5 +16,6 @@
                 console.log(result);
             });
 
+            $location.path("/login");
         }
     }]);
